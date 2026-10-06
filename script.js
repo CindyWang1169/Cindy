@@ -55,3 +55,28 @@ if (timeline) {
   }, { threshold: 0.2 });
   timelineObserver.observe(timeline);
 }
+// 圖片燈箱：點擊作品／得獎／研習圖片放大檢視
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = document.getElementById('lightboxImg');
+const lightboxCap = document.getElementById('lightboxCap');
+
+function closeLightbox() {
+  lightbox.hidden = true;
+  lightboxImg.removeAttribute('src');
+  document.body.style.overflow = '';
+}
+
+document.querySelectorAll('.work-gallery img, .mini-card img, .photo-grid img, .ispan-grid img').forEach(img => {
+  img.addEventListener('click', () => {
+    lightboxImg.src = img.src;
+    lightboxImg.alt = img.alt;
+    lightboxCap.textContent = img.alt;
+    lightbox.hidden = false;
+    document.body.style.overflow = 'hidden';
+  });
+});
+
+lightbox.addEventListener('click', closeLightbox);
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape' && !lightbox.hidden) closeLightbox();
+});

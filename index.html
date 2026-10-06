@@ -24,6 +24,8 @@
       <li><a href="#skills">專長</a></li>
       <li><a href="#experience">經歷</a></li>
       <li><a href="#work">作品集</a></li>
+      <li><a href="#awards">得獎</a></li>
+      <li><a href="#training">研習</a></li>
       <li><a href="#certs">證照</a></li>
       <li><a href="#contact">聯絡</a></li>
     </ul>
@@ -154,7 +156,11 @@
       <h2>作品集</h2>
       <p class="section-sub">代表專案</p>
     </div>
-    <div class="work-card reveal">
+
+    <article class="work-card reveal">
+      <div class="work-video">
+        <iframe src="https://www.youtube-nocookie.com/embed/6zIdrXg3IMQ" title="ReTrust 專題展示影片" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
       <div class="work-card-body">
         <p class="work-tag">C2C 二手交易市集</p>
         <h3>ReTrust</h3>
@@ -172,6 +178,148 @@
           <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
       </div>
+    </article>
+
+    <article class="work-card reveal">
+      <div class="work-gallery work-gallery-2">
+        <figure><img src="assets/img/work-autotest-webui.jpg" alt="Jenkins 執行 DVT 自動化測試畫面" loading="lazy"></figure>
+        <figure><img src="assets/img/work-autotest-scripts.jpg" alt="WebUI 自動化測試腳本清單" loading="lazy"></figure>
+      </div>
+      <div class="work-card-body">
+        <p class="work-tag">軟韌體測試</p>
+        <h3>自動化測試程式（Python）</h3>
+        <p>以 Python 結合 Selenium 開發路由器 WebUI 各功能頁的自動化測試腳本，並透過 Jenkins 搭配 PDU 建置重開機、壓力與耐久測試流程，涵蓋 Cellular Endurance Test、DVT Auto Test、WiFi Endurance Test 等項目，降低人工驗收錯誤率。</p>
+        <ul class="work-stack">
+          <li>Python</li>
+          <li>Selenium</li>
+          <li>Jenkins</li>
+          <li>PDU</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="work-card reveal">
+      <div class="work-gallery work-gallery-phones">
+        <figure><img src="assets/img/work-anomaly-1.jpg" alt="物料異常回報：選擇容量與材質" loading="lazy"></figure>
+        <figure><img src="assets/img/work-anomaly-2.jpg" alt="物料異常回報：填寫異常與數量" loading="lazy"></figure>
+        <figure><img src="assets/img/work-anomaly-3.jpg" alt="物料異常回報：確認回報內容並傳到 LINE" loading="lazy"></figure>
+      </div>
+      <div class="work-card-body">
+        <p class="work-tag">工具網站</p>
+        <h3>物料異常回報</h3>
+        <p>為產線人員設計的物料異常回報網頁，依「容量 → 物料種類 → 異常與數量 → 確認」四步驟快速填寫，可自訂選項，完成後一鍵傳送至 LINE 通知相關人員。採手機優先設計，大字體、大按鈕，方便現場操作。</p>
+        <ul class="work-stack">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>RWD</li>
+          <li>LINE 分享</li>
+          <li>GitHub Pages</li>
+        </ul>
+        <div class="work-links">
+          <a href="https://cindywang1169.github.io/anomaly-report/" target="_blank" rel="noopener" class="work-link">
+            開啟網站
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="https://github.com/CindyWang1169/anomaly-report" target="_blank" rel="noopener" class="work-link">
+            查看 GitHub Repository
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <article class="work-card reveal">
+      <div class="work-gallery work-gallery-3">
+        <figure><img src="assets/img/work-web-dessert.jpg" alt="甜點店形象網站" loading="lazy"></figure>
+        <figure><img src="assets/img/work-web-campus.jpg" alt="嘉藥人文網站" loading="lazy"></figure>
+        <figure><img src="assets/img/work-web-niceday.jpg" alt="Having a nice day 倒數計時網頁" loading="lazy"></figure>
+      </div>
+      <div class="work-card-body">
+        <p class="work-tag">前端</p>
+        <h3>網站開發</h3>
+        <p>以 HTML、CSS、JavaScript 製作的形象網站與互動網頁練習作品，包含 RWD 版面、動態效果與倒數計時等功能。</p>
+      </div>
+    </article>
+
+    <h3 class="work-subhead reveal">專題與硬體實作</h3>
+    <div class="mini-grid reveal">
+      <figure class="mini-card">
+        <div class="mini-imgs mini-imgs-2">
+          <img src="assets/img/work-health-old.jpg" alt="舊版專題伺服端畫面" loading="lazy">
+          <img src="assets/img/work-health-new.jpg" alt="新版專題伺服端畫面" loading="lazy">
+        </div>
+        <figcaption>無人健康評測櫃台</figcaption>
+      </figure>
+      <figure class="mini-card">
+        <div class="mini-imgs mini-imgs-3d">
+          <img src="assets/img/work-3d-scene.jpg" alt="3D 列印建模場景" loading="lazy">
+          <img src="assets/img/work-3d-part.jpg" alt="3D 列印零件模型" loading="lazy">
+          <img src="assets/img/work-3d-bottle.jpg" alt="3D 列印瓶罐模型" loading="lazy">
+        </div>
+        <figcaption>3D 列印建模</figcaption>
+      </figure>
+      <figure class="mini-card">
+        <img src="assets/img/work-belt.jpg" alt="老人防護腰帶實品" loading="lazy">
+        <figcaption>老人防護腰帶</figcaption>
+      </figure>
+      <figure class="mini-card">
+        <img src="assets/img/work-vb.jpg" alt="VB 程式撰寫畫面" loading="lazy">
+        <figcaption>VB 程式撰寫</figcaption>
+      </figure>
+      <figure class="mini-card">
+        <img src="assets/img/work-arduino.jpg" alt="Arduino 程式碼" loading="lazy">
+        <figcaption>Arduino 撰寫</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- 競賽得獎 -->
+  <section class="section" id="awards">
+    <div class="section-head">
+      <h2>競賽得獎</h2>
+      <p class="section-sub">專題與競賽成果</p>
+    </div>
+    <div class="photo-grid photo-grid-portrait reveal">
+      <figure><img src="assets/img/award-greenidea.jpg" alt="2020 台灣綠點子國際發明設計競賽銀牌獎" loading="lazy"><figcaption>國際綠點子－銀牌獎</figcaption></figure>
+      <figure><img src="assets/img/award-project-1.jpg" alt="大三專題成果展第一名獎狀" loading="lazy"><figcaption>大三專題成果展第一名</figcaption></figure>
+      <figure><img src="assets/img/award-project-2.jpg" alt="大四專題成果展第一名獎狀" loading="lazy"><figcaption>大四專題成果展第一名</figcaption></figure>
+      <figure><img src="assets/img/award-takming-1.jpg" alt="德明行動商務創意競賽特優獎狀" loading="lazy"><figcaption>德明行動商務創意競賽－特優</figcaption></figure>
+      <figure><img src="assets/img/award-takming-2.jpg" alt="德明行動商務創意競賽季軍獎狀" loading="lazy"><figcaption>德明行動商務創意競賽－季軍</figcaption></figure>
+      <figure><img src="assets/img/award-merit.jpg" alt="校內智育獎獎狀" loading="lazy"><figcaption>校內智育獎</figcaption></figure>
+    </div>
+    <h3 class="work-subhead reveal">佳作、參賽證明</h3>
+    <div class="photo-grid photo-grid-small reveal">
+      <figure><img src="assets/img/award-misc-1.jpg" alt="佳作獎狀" loading="lazy"></figure>
+      <figure><img src="assets/img/award-misc-2.jpg" alt="南科盃 AI 機器人競賽佳作" loading="lazy"></figure>
+      <figure><img src="assets/img/award-misc-3.jpg" alt="系上競賽獎狀" loading="lazy"></figure>
+      <figure><img src="assets/img/award-misc-4.jpg" alt="參賽證明" loading="lazy"></figure>
+      <figure><img src="assets/img/award-misc-5.jpg" alt="APP 程式設計競賽參賽證明" loading="lazy"></figure>
+      <figure><img src="assets/img/award-misc-6.jpg" alt="Python 程式設計大賽參賽證明" loading="lazy"></figure>
+    </div>
+  </section>
+
+  <!-- 研習經驗 -->
+  <section class="section section-alt" id="training">
+    <div class="section-head">
+      <h2>研習經驗</h2>
+      <p class="section-sub">產學合作、參訪與實習</p>
+    </div>
+    <h3 class="work-subhead reveal">資展國際 全端工程師就業養成班</h3>
+    <div class="ispan-grid reveal">
+      <figure class="ispan-main"><img src="assets/img/ispan-class.jpg" alt="資展國際 全端工程師就業養成班 結訓合照" loading="lazy"><figcaption>資展國際 全端工程師就業養成班 結訓合照</figcaption></figure>
+      <figure><img src="assets/img/ispan-team3.jpg" alt="ReTrust 專題第三組合照" loading="lazy"><figcaption>ReTrust 專題第三組合照</figcaption></figure>
+      <figure><img src="assets/img/ispan-demo.jpg" alt="期末專題發表現場" loading="lazy"><figcaption>期末專題發表現場</figcaption></figure>
+      <figure><img src="assets/img/ispan-teacher.jpg" alt="與講師合影" loading="lazy" class="pos-top"><figcaption>與講師合影</figcaption></figure>
+      <figure><img src="assets/img/ispan-mentor.jpg" alt="與導師合影" loading="lazy" class="pos-top"><figcaption>與導師合影</figcaption></figure>
+    </div>
+    <h3 class="work-subhead reveal">產學合作與參訪</h3>
+    <div class="photo-grid photo-grid-training reveal">
+      <figure><img src="assets/img/train-evermore.jpg" alt="長茂科技合影" loading="lazy"><figcaption>長茂科技－CmoreTV 協同開發智慧健康監控設備</figcaption></figure>
+      <figure><img src="assets/img/train-itri.jpg" alt="工研院智慧健康主題班合影" loading="lazy"><figcaption>工研院智慧健康主題班－IoT 與感測器技術</figcaption></figure>
+      <figure><img src="assets/img/train-chimei.jpg" alt="奇美醫院 AI 大數據參訪合影" loading="lazy"><figcaption>奇美醫院 AI 大數據參訪</figcaption></figure>
+      <figure><img src="assets/img/train-alian.jpg" alt="高雄阿蓮社區關懷初展" loading="lazy"><figcaption>高雄阿蓮社區關懷初展</figcaption></figure>
+      <figure><img src="assets/img/train-intern.jpg" alt="鎰誠創研實習" loading="lazy"><figcaption>鎰誠創研實習</figcaption></figure>
     </div>
   </section>
 
@@ -221,6 +369,13 @@
 <footer class="footer">
   <p>王心湲 · 軟韌體測試 × 全端開發工程師</p>
 </footer>
+
+<!-- 圖片燈箱 -->
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" id="lightboxClose" aria-label="關閉">×</button>
+  <img id="lightboxImg" alt="">
+  <p class="lightbox-cap" id="lightboxCap"></p>
+</div>
 
 <script src="script.js"></script>
 </body>
