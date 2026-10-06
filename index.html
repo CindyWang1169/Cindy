@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>王心湲 | 軟韌體測試 × 全端開發工程師</title>
+<meta name="description" content="王心湲的個人作品集網站 — 軟韌體測試工程師，跨足全端開發">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 導覽 -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-mark">心湲</a>
+    <button class="nav-toggle" id="navToggle" aria-label="開啟選單" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">自傳</a></li>
+      <li><a href="#skills">專長</a></li>
+      <li><a href="#experience">經歷</a></li>
+      <li><a href="#work">作品集</a></li>
+      <li><a href="#certs">證照</a></li>
+      <li><a href="#contact">聯絡</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Hero -->
+<header class="hero" id="top">
+  <div class="hero-inner">
+    <p class="hero-eyebrow">軟韌體測試 ／ 全端開發</p>
+    <h1 class="hero-name" id="heroName">王心湲</h1>
+    <p class="hero-line">從自動化測試出發，跨足全端，累積更多實作經驗。</p>
+    <blockquote class="hero-quote">「做就對了，Just Do IT」</blockquote>
+    <div class="hero-actions">
+      <a href="#work" class="btn btn-primary">看作品集</a>
+      <a href="assets/王心湲_履歷.pdf" class="btn btn-ghost" target="_blank" rel="noopener">下載履歷 PDF</a>
+    </div>
+  </div>
+  <div class="hero-mark" aria-hidden="true">
+    <img src="assets/cindy2.jpg" alt="" class="hero-photo">
+  </div>
+</header>
+
+<main>
+
+  <!-- 自傳 -->
+  <section class="section" id="about">
+    <div class="section-head">
+      <h2>自傳</h2>
+      <p class="section-sub">軟韌體測試、全端開發</p>
+    </div>
+    <div class="about-body reveal">
+      <p>畢業於嘉南藥理大學資訊管理學系，在學期間積極參與產學合作與各類技術競賽。曾加入新竹科學園區研究專案並與長茂科技共同開發產品，累積實際產品開發與跨單位協作經驗；所參與之專題研究亦曾獲校內專題成果展兩度第一名，並於 2020 年台灣綠點子國際發明設計競賽榮獲發明類社會組銀牌獎。</p>
+      <p>畢業後任職於台鋼集團旗下永洋科技，擔任軟韌體測試工程師。主要負責公司產品之自動化測試開發與維護，熟悉測試流程與測試案例設計。任職期間運用 Python 結合 Selenium 開發 UI 元件自動化測試，有效降低人工驗收錯誤率並提升測試效率；亦曾利用 Python 與 Jenkins 搭配 PDU 建置壓力測試環境。透過自主學習與實務應用，持續為團隊減輕測試負擔並提升系統品質。</p>
+      <p>為求技術領域的突破與更全面的發展，隨後參與資策會全端工程師就業養成班。在專案實作中，獨立主導並完成 C2C 二手交易市集（Marketplace）系統，前端採用 Vue3 搭配 GSAP 動畫與 RWD 網頁設計，後端則以 ASP.NET Core、EF Core 與 SQL Server 串接 RESTful API，並成功整合綠界金流、物流及 LINE 通知服務。在開發過程中，透過克服版本衝突與環境部署等挑戰，進一步強化了問題分析與解決能力。</p>
+      <p>我具備良好的邏輯思考能力與高度學習熱忱，重視程式品質與系統穩定度。未來期許能將過去在自動化測試與全端開發所累積的實務經驗相結合，持續深耕軟體工程領域，成為能為團隊帶來實質貢獻的專業工程師。</p>
+    </div>
+  </section>
+
+  <!-- 專長 -->
+  <section class="section section-alt" id="skills">
+    <div class="section-head">
+      <h2>專長</h2>
+      <p class="section-sub">軟體開發工具與測試設備</p>
+    </div>
+    <div class="skills-grid reveal">
+      <div class="skill-group">
+        <h3>前端</h3>
+        <ul>
+          <li>HTML／CSS／Bootstrap</li>
+          <li>JavaScript／jQuery</li>
+          <li>Vue.js</li>
+          <li>Ajax</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>後端</h3>
+        <ul>
+          <li>Python／C#／VB</li>
+          <li>.NET Framework／.NET Core MVC</li>
+          <li>RESTful API／LINQ</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>資料庫與測試</h3>
+        <ul>
+          <li>SQL Server／Entity Framework／SSMS</li>
+          <li>Selenium／Katalon</li>
+          <li>Kodular Makeroid</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>硬體與工具</h3>
+        <ul>
+          <li>Arduino（UNO、D1、D1 Mini）</li>
+          <li>npm／Git／GitHub</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>無線測速軟體</h3>
+        <ul>
+          <li>Ixchariot</li>
+          <li>IPerf2／IPerf3</li>
+          <li>Speedtest</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>寬頻無線通訊測試儀</h3>
+        <ul>
+          <li>CMW500</li>
+          <li>Callbox</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 經歷時間軸 -->
+  <section class="section" id="experience">
+    <div class="section-head">
+      <h2>經歷</h2>
+      <p class="section-sub">工作與學習軌跡</p>
+    </div>
+    <ol class="timeline">
+      <li class="timeline-item">
+        
+        <h3>資展國際股份有限公司</h3>
+        <p class="timeline-role">全端工程師就業養成班</p>
+        <p>獨立主導並完成 C2C 二手交易市集系統，前端以 Vue3 搭配 GSAP 動畫與 RWD 設計，後端以 ASP.NET Core、EF Core、SQL Server 串接 RESTful API，並整合綠界金流、物流與 LINE 通知服務。</p>
+      </li>
+      <li class="timeline-item">
+        
+        <h3>台鋼集團－永洋科技股份有限公司</h3>
+        <p class="timeline-role">軟韌體測試工程師</p>
+        <p>負責功能測試、軟體整合測試、問題追蹤處理、測試計畫與報告撰寫、測試環境建置與規劃。優化超過百項手動測試項目流程，開發多項自動化測試系統（Cellular Endurance Test、DVT Auto Test、WiFi Endurance Test 等），降低人工檢測錯誤率。</p>
+      </li>
+      <li class="timeline-item">
+        
+        <h3>嘉南藥理大學 資訊管理系</h3>
+        <p class="timeline-role">學士學位</p>
+        <p>積極參與產學合作與技術競賽，曾加入新竹科學園區研究專案並與長茂科技共同開發產品；專題研究兩度獲校內成果展第一名，並於 2020 年台灣綠點子國際發明設計競賽榮獲發明類社會組銀牌獎。</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- 作品集 -->
+  <section class="section section-alt" id="work">
+    <div class="section-head">
+      <h2>作品集</h2>
+      <p class="section-sub">代表專案</p>
+    </div>
+    <div class="work-card reveal">
+      <div class="work-card-body">
+        <p class="work-tag">C2C 二手交易市集</p>
+        <h3>ReTrust</h3>
+        <p>獨立主導開發的 C2C 二手交易市集系統。前端使用 Vue3 搭配 GSAP 動畫與 RWD 響應式設計，後端以 ASP.NET Core、EF Core 與 SQL Server 串接 RESTful API，並整合綠界金流、物流與 LINE 通知服務。開發過程中克服版本衝突與環境部署挑戰，強化了問題分析與解決能力。</p>
+        <ul class="work-stack">
+          <li>Vue 3</li>
+          <li>GSAP</li>
+          <li>ASP.NET Core</li>
+          <li>EF Core</li>
+          <li>SQL Server</li>
+          <li>綠界金流</li>
+        </ul>
+        <a href="https://github.com/CindyWang1169/ReTrust_cindy" target="_blank" rel="noopener" class="work-link">
+          查看 GitHub Repository
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 證照 -->
+  <section class="section" id="certs">
+    <div class="section-head">
+      <h2>證照</h2>
+      <p class="section-sub">專業認證</p>
+    </div>
+    <ul class="cert-list reveal">
+      <li>丙級電腦軟體應用術士</li>
+      <li>ICT 計算機綜合能力國際認證</li>
+      <li>TQC-DK 專案管理概論－專業級 P3</li>
+      <li>TQC-OA 雲端技術及網路服務－專業級</li>
+      <li>EEC 企業電子化軟體應用師－ERP（鼎新生管模組）</li>
+      <li>EEC 企業電子化軟體應用師－ERP（鼎新配銷模組）</li>
+      <li>BAP – World、Excel</li>
+      <li>CSEPT 大學校院英語能力測驗</li>
+      <li>PVQC 專業英文詞彙能力國際認證</li>
+    </ul>
+  </section>
+
+  <!-- 聯絡 -->
+  <section class="section section-contact" id="contact">
+    <div class="section-head">
+      <h2>聯絡我</h2>
+      <p class="section-sub">歡迎交流合作機會</p>
+    </div>
+    <div class="contact-grid reveal">
+      <a href="mailto:stu9850931@gmail.com" class="contact-item">
+        <span class="contact-label">Email</span>
+        <span class="contact-value">stu9850931@gmail.com</span>
+      </a>
+      <a href="tel:0908987617" class="contact-item">
+        <span class="contact-label">電話</span>
+        <span class="contact-value">0908 987 617</span>
+      </a>
+      <a href="https://github.com/CindyWang1169" target="_blank" rel="noopener" class="contact-item">
+        <span class="contact-label">GitHub</span>
+        <span class="contact-value">CindyWang1169</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>王心湲 · 軟韌體測試 × 全端開發工程師</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
